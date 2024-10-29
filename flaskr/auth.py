@@ -134,6 +134,5 @@ def login_required(view):
     return wrapped_view
 
  #blueprint
-    from . import auth
-    app.register_blueprint(auth.bp)
+    
 
